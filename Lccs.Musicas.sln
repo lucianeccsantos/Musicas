@@ -9,6 +9,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lccs.Musicas.Dominio", "Lcc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lccs.Musicas.AcessoDados.Entity", "Lccs.Musicas.AcessoDados.Entity\Lccs.Musicas.AcessoDados.Entity.csproj", "{2B721763-56A4-448A-9ED5-8CC1029AB85E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Acesso a Dados", "Acesso a Dados", "{46286318-C1BF-44F6-B02C-678138BC9033}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domínio", "Domínio", "{C559CB38-7C2D-41C6-8726-1B27A306D577}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lccs.Comum.Entity", "Lccs.Comum.Entity\Lccs.Comum.Entity.csproj", "{8E654B12-774D-4C75-BF4B-3C99BA288DB4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,9 +33,18 @@ Global
 		{2B721763-56A4-448A-9ED5-8CC1029AB85E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B721763-56A4-448A-9ED5-8CC1029AB85E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B721763-56A4-448A-9ED5-8CC1029AB85E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E654B12-774D-4C75-BF4B-3C99BA288DB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E654B12-774D-4C75-BF4B-3C99BA288DB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E654B12-774D-4C75-BF4B-3C99BA288DB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E654B12-774D-4C75-BF4B-3C99BA288DB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{993E533B-F484-4696-8BC5-21BB4ABC4A39} = {C559CB38-7C2D-41C6-8726-1B27A306D577}
+		{2B721763-56A4-448A-9ED5-8CC1029AB85E} = {46286318-C1BF-44F6-B02C-678138BC9033}
+		{8E654B12-774D-4C75-BF4B-3C99BA288DB4} = {46286318-C1BF-44F6-B02C-678138BC9033}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A289E86E-BAE9-4D18-BAB4-0066C2933D5D}
